@@ -24,8 +24,8 @@ void motor_init() {
 void move_forward() {
 	GPIO_SetBits(GPIOB, GPIO_Pin_4);    //4 1
 	GPIO_ResetBits(GPIOB, GPIO_Pin_5);  //5 0
-	GPIO_ResetBits(GPIOB, GPIO_Pin_6);  //6 0
-	GPIO_SetBits(GPIOB, GPIO_Pin_7);    //7 1
+	GPIO_SetBits(GPIOB, GPIO_Pin_6);  //6 1
+	GPIO_ResetBits(GPIOB, GPIO_Pin_7);    //7 0
 }
 
 void stop() {
