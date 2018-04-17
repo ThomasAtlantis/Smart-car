@@ -6,5 +6,6 @@
 void motor_init(void);
 void move_forward(void);
 void stop(void);
+void move_backward(void);
 
 #endif 

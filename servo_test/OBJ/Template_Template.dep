@@ -1,5 +1,5 @@
 Dependencies for Project 'Template', Target 'Template': (DO NOT MODIFY !)
-F (.\main.c)(0x5ABA489F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM-I F:\Smart-car\servo_test\USER\RTE-I F:\MDK514\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\MDK514\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+F (.\main.c)(0x5ACCC846)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM-I F:\Smart-car\servo_test\USER\RTE-I F:\MDK514\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\MDK514\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
 I (stm32f10x.h)(0x59F40FF4)
 I (..\CORE\core_cm3.h)(0x59F40FF4)
 I (F:\MDK514\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -32,7 +32,7 @@ I (..\STM32F10x_FWLib\inc\misc.h)(0x59F40FF4)
 I (..\SYSTEM\delay\delay.h)(0x5A23BB0A)
 I (..\SYSTEM\sys\sys.h)(0x59F40FF4)
 I (..\SYSTEM\stervo\stervo.h)(0x59F40FF4)
-I (..\SYSTEM\motor\motor.h)(0x5A23D397)
+I (..\SYSTEM\motor\motor.h)(0x5AC37DF4)
 I (..\SYSTEM\infrared\infrared.h)(0x59F42B6D)
 F (.\stm32f10x_it.c)(0x59F40FF4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM-I F:\Smart-car\servo_test\USER\RTE-I F:\MDK514\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\MDK514\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_it.o --omf_browse ..\obj\stm32f10x_it.crf --depend ..\obj\stm32f10x_it.d)
 I (stm32f10x_it.h)(0x59F40FF4)
@@ -285,8 +285,8 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x59F40FF4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x59F40FF4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x59F40FF4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x59F40FF4)
-F (..\SYSTEM\motor\motor.c)(0x5ABA28C3)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM-I F:\Smart-car\servo_test\USER\RTE-I F:\MDK514\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\MDK514\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\motor.o --omf_browse ..\obj\motor.crf --depend ..\obj\motor.d)
-I (..\SYSTEM\motor\motor.h)(0x5A23D397)
+F (..\SYSTEM\motor\motor.c)(0x5ACCC73F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM-I F:\Smart-car\servo_test\USER\RTE-I F:\MDK514\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I F:\MDK514\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\motor.o --omf_browse ..\obj\motor.crf --depend ..\obj\motor.d)
+I (..\SYSTEM\motor\motor.h)(0x5AC37DF4)
 I (..\USER\stm32f10x.h)(0x59F40FF4)
 I (..\CORE\core_cm3.h)(0x59F40FF4)
 I (F:\MDK514\ARM\ARMCC\include\stdint.h)(0x5475F300)
