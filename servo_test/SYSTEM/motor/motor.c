@@ -78,8 +78,8 @@ void motor_init() {
 	TIM_ARRPreloadConfig(TIM4, ENABLE);
 	TIM_CtrlPWMOutputs(TIM4,ENABLE);
 	TIM_Cmd(TIM4, ENABLE);
-	TIM3->CCR1 = 4999;
-	TIM4->CCR3 = 4999;
+	TIM3->CCR1 = 6999;
+	TIM4->CCR3 = 6999;
 }
 
 void move_forward() {

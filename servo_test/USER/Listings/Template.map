@@ -1089,23 +1089,23 @@ Image Symbol Table
     i.delay_ms                               0x08000a78   Section        0  delay.o(i.delay_ms)
     i.fputc                                  0x08000ac4   Section        0  usart.o(i.fputc)
     i.infrared_init                          0x08000ae0   Section        0  infrared.o(i.infrared_init)
-    i.main                                   0x08000b08   Section        0  main.o(i.main)
-    i.modify_debug                           0x08000b98   Section        0  usart.o(i.modify_debug)
-    i.motor_init                             0x08000cd8   Section        0  motor.o(i.motor_init)
-    i.move_forward                           0x08000e68   Section        0  motor.o(i.move_forward)
-    i.set_stervo_angle                       0x08000e94   Section        0  stervo.o(i.set_stervo_angle)
-    i.stervo_init                            0x08000ec8   Section        0  stervo.o(i.stervo_init)
-    i.stop                                   0x08000f78   Section        0  motor.o(i.stop)
-    x$fpl$fadd                               0x08000fa4   Section      196  faddsub_clz.o(x$fpl$fadd)
-    _fadd1                                   0x08000fb3   Thumb Code     0  faddsub_clz.o(x$fpl$fadd)
-    x$fpl$ffixu                              0x08001068   Section       62  ffixu.o(x$fpl$ffixu)
-    x$fpl$fflt                               0x080010a8   Section       48  fflt_clz.o(x$fpl$fflt)
-    x$fpl$fmul                               0x080010d8   Section      258  fmul.o(x$fpl$fmul)
-    x$fpl$fnaninf                            0x080011da   Section      140  fnaninf.o(x$fpl$fnaninf)
-    x$fpl$fretinf                            0x08001266   Section       10  fretinf.o(x$fpl$fretinf)
-    x$fpl$fsub                               0x08001270   Section      234  faddsub_clz.o(x$fpl$fsub)
-    _fsub1                                   0x0800127f   Thumb Code     0  faddsub_clz.o(x$fpl$fsub)
-    x$fpl$usenofp                            0x0800135a   Section        0  usenofp.o(x$fpl$usenofp)
+    i.main                                   0x08000b0c   Section        0  main.o(i.main)
+    i.modify_debug                           0x08000c24   Section        0  usart.o(i.modify_debug)
+    i.motor_init                             0x08000d64   Section        0  motor.o(i.motor_init)
+    i.move_forward                           0x08000ef4   Section        0  motor.o(i.move_forward)
+    i.set_stervo_angle                       0x08000f20   Section        0  stervo.o(i.set_stervo_angle)
+    i.stervo_init                            0x08000f54   Section        0  stervo.o(i.stervo_init)
+    i.stop                                   0x08001004   Section        0  motor.o(i.stop)
+    x$fpl$fadd                               0x08001030   Section      196  faddsub_clz.o(x$fpl$fadd)
+    _fadd1                                   0x0800103f   Thumb Code     0  faddsub_clz.o(x$fpl$fadd)
+    x$fpl$ffixu                              0x080010f4   Section       62  ffixu.o(x$fpl$ffixu)
+    x$fpl$fflt                               0x08001134   Section       48  fflt_clz.o(x$fpl$fflt)
+    x$fpl$fmul                               0x08001164   Section      258  fmul.o(x$fpl$fmul)
+    x$fpl$fnaninf                            0x08001266   Section      140  fnaninf.o(x$fpl$fnaninf)
+    x$fpl$fretinf                            0x080012f2   Section       10  fretinf.o(x$fpl$fretinf)
+    x$fpl$fsub                               0x080012fc   Section      234  faddsub_clz.o(x$fpl$fsub)
+    _fsub1                                   0x0800130b   Thumb Code     0  faddsub_clz.o(x$fpl$fsub)
+    x$fpl$usenofp                            0x080013e6   Section        0  usenofp.o(x$fpl$usenofp)
     .data                                    0x20000000   Section       20  system_stm32f10x.o(.data)
     .data                                    0x20000014   Section        4  delay.o(.data)
     fac_us                                   0x20000014   Data           1  delay.o(.data)
@@ -1306,29 +1306,29 @@ Image Symbol Table
     delay_init                               0x08000a35   Thumb Code    50  delay.o(i.delay_init)
     delay_ms                                 0x08000a79   Thumb Code    72  delay.o(i.delay_ms)
     fputc                                    0x08000ac5   Thumb Code    24  usart.o(i.fputc)
-    infrared_init                            0x08000ae1   Thumb Code    36  infrared.o(i.infrared_init)
-    main                                     0x08000b09   Thumb Code   140  main.o(i.main)
-    modify_debug                             0x08000b99   Thumb Code   210  usart.o(i.modify_debug)
-    motor_init                               0x08000cd9   Thumb Code   384  motor.o(i.motor_init)
-    move_forward                             0x08000e69   Thumb Code    38  motor.o(i.move_forward)
-    set_stervo_angle                         0x08000e95   Thumb Code    44  stervo.o(i.set_stervo_angle)
-    stervo_init                              0x08000ec9   Thumb Code   170  stervo.o(i.stervo_init)
-    stop                                     0x08000f79   Thumb Code    38  motor.o(i.stop)
-    __aeabi_fadd                             0x08000fa5   Thumb Code     0  faddsub_clz.o(x$fpl$fadd)
-    _fadd                                    0x08000fa5   Thumb Code   196  faddsub_clz.o(x$fpl$fadd)
-    __aeabi_f2uiz                            0x08001069   Thumb Code     0  ffixu.o(x$fpl$ffixu)
-    _ffixu                                   0x08001069   Thumb Code    62  ffixu.o(x$fpl$ffixu)
-    __aeabi_i2f                              0x080010a9   Thumb Code     0  fflt_clz.o(x$fpl$fflt)
-    _fflt                                    0x080010a9   Thumb Code    48  fflt_clz.o(x$fpl$fflt)
-    __aeabi_fmul                             0x080010d9   Thumb Code     0  fmul.o(x$fpl$fmul)
-    _fmul                                    0x080010d9   Thumb Code   258  fmul.o(x$fpl$fmul)
-    __fpl_fnaninf                            0x080011db   Thumb Code   140  fnaninf.o(x$fpl$fnaninf)
-    __fpl_fretinf                            0x08001267   Thumb Code    10  fretinf.o(x$fpl$fretinf)
-    __aeabi_fsub                             0x08001271   Thumb Code     0  faddsub_clz.o(x$fpl$fsub)
-    _fsub                                    0x08001271   Thumb Code   234  faddsub_clz.o(x$fpl$fsub)
-    __I$use$fp                               0x0800135a   Number         0  usenofp.o(x$fpl$usenofp)
-    Region$$Table$$Base                      0x0800135c   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x0800137c   Number         0  anon$$obj.o(Region$$Table)
+    infrared_init                            0x08000ae1   Thumb Code    38  infrared.o(i.infrared_init)
+    main                                     0x08000b0d   Thumb Code   276  main.o(i.main)
+    modify_debug                             0x08000c25   Thumb Code   210  usart.o(i.modify_debug)
+    motor_init                               0x08000d65   Thumb Code   384  motor.o(i.motor_init)
+    move_forward                             0x08000ef5   Thumb Code    38  motor.o(i.move_forward)
+    set_stervo_angle                         0x08000f21   Thumb Code    44  stervo.o(i.set_stervo_angle)
+    stervo_init                              0x08000f55   Thumb Code   170  stervo.o(i.stervo_init)
+    stop                                     0x08001005   Thumb Code    38  motor.o(i.stop)
+    __aeabi_fadd                             0x08001031   Thumb Code     0  faddsub_clz.o(x$fpl$fadd)
+    _fadd                                    0x08001031   Thumb Code   196  faddsub_clz.o(x$fpl$fadd)
+    __aeabi_f2uiz                            0x080010f5   Thumb Code     0  ffixu.o(x$fpl$ffixu)
+    _ffixu                                   0x080010f5   Thumb Code    62  ffixu.o(x$fpl$ffixu)
+    __aeabi_i2f                              0x08001135   Thumb Code     0  fflt_clz.o(x$fpl$fflt)
+    _fflt                                    0x08001135   Thumb Code    48  fflt_clz.o(x$fpl$fflt)
+    __aeabi_fmul                             0x08001165   Thumb Code     0  fmul.o(x$fpl$fmul)
+    _fmul                                    0x08001165   Thumb Code   258  fmul.o(x$fpl$fmul)
+    __fpl_fnaninf                            0x08001267   Thumb Code   140  fnaninf.o(x$fpl$fnaninf)
+    __fpl_fretinf                            0x080012f3   Thumb Code    10  fretinf.o(x$fpl$fretinf)
+    __aeabi_fsub                             0x080012fd   Thumb Code     0  faddsub_clz.o(x$fpl$fsub)
+    _fsub                                    0x080012fd   Thumb Code   234  faddsub_clz.o(x$fpl$fsub)
+    __I$use$fp                               0x080013e6   Number         0  usenofp.o(x$fpl$usenofp)
+    Region$$Table$$Base                      0x080013e8   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x08001408   Number         0  anon$$obj.o(Region$$Table)
     SystemCoreClock                          0x20000000   Data           4  system_stm32f10x.o(.data)
     AHBPrescTable                            0x20000004   Data          16  system_stm32f10x.o(.data)
     __stdout                                 0x20000018   Data           4  usart.o(.data)
@@ -1346,9 +1346,9 @@ Memory Map of the image
 
   Image Entry point : 0x08000191
 
-  Load Region LR_1 (Base: 0x08000000, Size: 0x0000139c, Max: 0xffffffff, ABSOLUTE)
+  Load Region LR_1 (Base: 0x08000000, Size: 0x00001428, Max: 0xffffffff, ABSOLUTE)
 
-    Execution Region ER_RO (Base: 0x08000000, Size: 0x0000137c, Max: 0xffffffff, ABSOLUTE)
+    Execution Region ER_RO (Base: 0x08000000, Size: 0x00001408, Max: 0xffffffff, ABSOLUTE)
 
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -1455,25 +1455,25 @@ Memory Map of the image
     0x08000a34   0x00000044   Code   RO          213    i.delay_init        delay.o
     0x08000a78   0x0000004c   Code   RO          214    i.delay_ms          delay.o
     0x08000ac4   0x0000001c   Code   RO          299    i.fputc             usart.o
-    0x08000ae0   0x00000028   Code   RO          498    i.infrared_init     infrared.o
-    0x08000b08   0x00000090   Code   RO            1    i.main              main.o
-    0x08000b98   0x00000140   Code   RO          300    i.modify_debug      usart.o
-    0x08000cd8   0x00000190   Code   RO          468    i.motor_init        motor.o
-    0x08000e68   0x0000002c   Code   RO          470    i.move_forward      motor.o
-    0x08000e94   0x00000034   Code   RO          450    i.set_stervo_angle  stervo.o
-    0x08000ec8   0x000000b0   Code   RO          451    i.stervo_init       stervo.o
-    0x08000f78   0x0000002c   Code   RO          471    i.stop              motor.o
-    0x08000fa4   0x000000c4   Code   RO         3557    x$fpl$fadd          fz_ws.l(faddsub_clz.o)
-    0x08001068   0x0000003e   Code   RO         3563    x$fpl$ffixu         fz_ws.l(ffixu.o)
-    0x080010a6   0x00000002   PAD
-    0x080010a8   0x00000030   Code   RO         3568    x$fpl$fflt          fz_ws.l(fflt_clz.o)
-    0x080010d8   0x00000102   Code   RO         3573    x$fpl$fmul          fz_ws.l(fmul.o)
-    0x080011da   0x0000008c   Code   RO         3587    x$fpl$fnaninf       fz_ws.l(fnaninf.o)
-    0x08001266   0x0000000a   Code   RO         3589    x$fpl$fretinf       fz_ws.l(fretinf.o)
-    0x08001270   0x000000ea   Code   RO         3559    x$fpl$fsub          fz_ws.l(faddsub_clz.o)
-    0x0800135a   0x00000000   Code   RO         3591    x$fpl$usenofp       fz_ws.l(usenofp.o)
-    0x0800135a   0x00000002   PAD
-    0x0800135c   0x00000020   Data   RO         3747    Region$$Table       anon$$obj.o
+    0x08000ae0   0x0000002c   Code   RO          498    i.infrared_init     infrared.o
+    0x08000b0c   0x00000118   Code   RO            1    i.main              main.o
+    0x08000c24   0x00000140   Code   RO          300    i.modify_debug      usart.o
+    0x08000d64   0x00000190   Code   RO          468    i.motor_init        motor.o
+    0x08000ef4   0x0000002c   Code   RO          470    i.move_forward      motor.o
+    0x08000f20   0x00000034   Code   RO          450    i.set_stervo_angle  stervo.o
+    0x08000f54   0x000000b0   Code   RO          451    i.stervo_init       stervo.o
+    0x08001004   0x0000002c   Code   RO          471    i.stop              motor.o
+    0x08001030   0x000000c4   Code   RO         3557    x$fpl$fadd          fz_ws.l(faddsub_clz.o)
+    0x080010f4   0x0000003e   Code   RO         3563    x$fpl$ffixu         fz_ws.l(ffixu.o)
+    0x08001132   0x00000002   PAD
+    0x08001134   0x00000030   Code   RO         3568    x$fpl$fflt          fz_ws.l(fflt_clz.o)
+    0x08001164   0x00000102   Code   RO         3573    x$fpl$fmul          fz_ws.l(fmul.o)
+    0x08001266   0x0000008c   Code   RO         3587    x$fpl$fnaninf       fz_ws.l(fnaninf.o)
+    0x080012f2   0x0000000a   Code   RO         3589    x$fpl$fretinf       fz_ws.l(fretinf.o)
+    0x080012fc   0x000000ea   Code   RO         3559    x$fpl$fsub          fz_ws.l(faddsub_clz.o)
+    0x080013e6   0x00000000   Code   RO         3591    x$fpl$usenofp       fz_ws.l(usenofp.o)
+    0x080013e6   0x00000002   PAD
+    0x080013e8   0x00000020   Data   RO         3747    Region$$Table       anon$$obj.o
 
 
     Execution Region ER_RW (Base: 0x20000000, Size: 0x00000020, Max: 0xffffffff, ABSOLUTE)
@@ -1503,8 +1503,8 @@ Image component sizes
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
        144         22          0          4          0     204132   delay.o
-        40          4          0          0          0        464   infrared.o
-       144          4          0          0          0      39659   main.o
+        44          6          0          0          0        464   infrared.o
+       280          4          0          0          0      39819   main.o
         40          0          0          0          0        486   misc.o
        488         28          0          0          0       1639   motor.o
         64         26        236          0       1536        768   startup_stm32f10x_md.o
@@ -1519,7 +1519,7 @@ Image component sizes
        494        128          0          8        200       3850   usart.o
 
     ----------------------------------------------------------------------
-      3020        338        268         32       1736     268513   Object Totals
+      3160        340        268         32       1736     268673   Object Totals
          0          0         32          0          0          0   (incl. Generated)
          8          0          0          0          0          0   (incl. Padding)
 
@@ -1586,15 +1586,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      4720        384        268         32       1832     267501   Grand Totals
-      4720        384        268         32       1832     267501   ELF Image Totals
-      4720        384        268         32          0          0   ROM Totals
+      4860        386        268         32       1832     267661   Grand Totals
+      4860        386        268         32       1832     267661   ELF Image Totals
+      4860        386        268         32          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                 4988 (   4.87kB)
+    Total RO  Size (Code + RO Data)                 5128 (   5.01kB)
     Total RW  Size (RW Data + ZI Data)              1864 (   1.82kB)
-    Total ROM Size (Code + RO Data + RW Data)       5020 (   4.90kB)
+    Total ROM Size (Code + RO Data + RW Data)       5160 (   5.04kB)
 
 ==============================================================================
 

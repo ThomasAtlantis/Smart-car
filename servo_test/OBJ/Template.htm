@@ -3,7 +3,7 @@
 <title>Static Call Graph - [..\OBJ\Template.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image ..\OBJ\Template.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5050106: Last Updated: Tue Apr 10 22:21:15 2018
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5050106: Last Updated: Wed Apr 18 21:34:26 2018
 <BR><P>
 <H3>Maximum Stack Usage =        144 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -618,7 +618,7 @@ Global Symbols
 <P><STRONG><a name="[3a]"></a>fputc</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, usart.o(i.fputc))
 <BR>[Address Reference Count : 1]<UL><LI> _printf_char_file.o(.text)
 </UL>
-<P><STRONG><a name="[62]"></a>infrared_init</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, infrared.o(i.infrared_init))
+<P><STRONG><a name="[62]"></a>infrared_init</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, infrared.o(i.infrared_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = infrared_init &rArr; GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB2PeriphClockCmd
@@ -627,7 +627,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[4a]"></a>main</STRONG> (Thumb, 140 bytes, Stack size 0 bytes, main.o(i.main))
+<P><STRONG><a name="[4a]"></a>main</STRONG> (Thumb, 276 bytes, Stack size 0 bytes, main.o(i.main))
 <BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = main &rArr; motor_init &rArr; GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;stop
